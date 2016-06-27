@@ -1,0 +1,60 @@
+<div class="m-home">
+    <header>
+        <ul>
+            <li>
+                <i class="yo-ico">&#xe68b;</i>
+                <span>吉美家园</span>
+            </li>
+            <li class="yo-ico">&#xe6fb;</li>
+        </ul>
+    </header>
+          
+    <section id="home-scroll" spa-widget="scroll">
+        <div>
+        
+            <div class="swiper-container con swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/mobiletask/images/picban.png"/></div>
+                    <div class="swiper-slide"><img src="/mobiletask/images/picban.png"/></div>
+                    <div class="swiper-slide"><img src="/mobiletask/images/picban.png"/></div>
+                </div>
+                
+            </div>
+
+        <div class="con">
+             <ul>
+                    <li><img src="/mobiletask/images/pic01.png"/></li>
+                    <li><img src="/mobiletask/images/pic02.png"/></li>
+                    <li><img src="/mobiletask/images/pic03.png"/></li>
+             </ul>
+        </div>
+        <div class="con">
+            <ul>
+                <li><img src="/mobiletask/images/sec_service.png"/></li>
+                <li><img src="/mobiletask/images/pic04.png"/></li>
+            </ul>
+        </div>
+        
+        <div class="con">
+            <img src="/mobiletask/images/house_center.png"/>
+        </div>
+        
+        <div class="swiper-container con swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/mobiletask/images/father_festival.png"/></div>
+                    <div class="swiper-slide"><img src="/mobiletask/images/father_festival.png"/></div>
+                    <div class="swiper-slide"><img src="/mobiletask/images/father_festival.png"/></div>
+                </div>                
+        </div>
+        <div class="swiper-container con swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/mobiletask/images/father_festival.png"/></div>
+                    <div class="swiper-slide"><img src="/mobiletask/images/father_festival.png"/></div>
+                    <div class="swiper-slide"><img src="/mobiletask/images/father_festival.png"/></div>
+                </div>                
+        </div>
+        
+       </div> 
+    </section>
+    
+</div>

@@ -1,0 +1,15 @@
+<div class="yo-dialog yo-dialog-a"> 
+    <header class="hd"> 
+        <h2 class="title">登陆</h2> 
+    </header> 
+    <div class="bd"> 
+        <div>
+            <p><input type="text" name="" id="text1" placeholder="账号" /></p>
+            <p><input type="text" name="" id="text2" placeholder="密码" /></p>
+        </div> 
+    </div> 
+    <footer class="ft"> 
+        <button class="yo-btn yo-btn-dialog yo-btn-l" action-type="close">取消</button> 
+        <button class="yo-btn yo-btn-dialog yo-btn-l" action-type="confirm">确定</button> 
+    </footer> 
+</div>

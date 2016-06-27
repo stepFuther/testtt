@@ -1,0 +1,249 @@
+
+header { 
+                width:100%;
+                font-size: 12px;
+                background:rgba(0,0,0,1);
+                height: .44rem;
+                position: relative;
+                z-index: 1000;
+               ul{ 
+                  @include flexbox();
+                  height: 100%;
+                  li {
+                    height: 100%;
+                    color:#FFFDEF;
+                    line-height: .44rem;
+                    &:nth-child(1){
+                        @include flex(6);
+                        text-align: center;
+                        i{
+                            padding-right: .05rem;
+                        }
+                    }
+                    &:nth-child(2){
+                        @include flex(1);
+                        
+                    }
+                  
+                }    
+            }
+        }
+
+section{
+    width: 100%;
+    &.my{
+       width:100%;
+       height:100%;
+       background: #f7f7f7;
+       font-size: 12px;
+       @include flexbox() ;
+       @include flex-direction(column);
+       
+       &>div{
+           @include border(1px 0 1px 0,#dddddd)
+           margin-bottom: .08rem;
+           
+            &:nth-child(1){
+            
+                @include flex(2);
+                width:100%;
+                background: url(/mobiletask/images/tmine_tou.png) ;
+                background-size: 100%;
+                @include border(0 0 0 0) ;
+                ul{
+                    width: 100%;
+                    @include flexbox() ;
+                    height:100%;
+                    li{
+                        text-align: center;
+                        line-height:100%;
+                        @include flexbox() ;
+                        @include align-items(center) ;
+                        &:nth-child(1){
+                            
+                             @include flex(1);
+                             height: 100%;
+                             @include align-items(center);
+                             @include justify-content(center);
+                             padding: 0 .20rem 0 .15rem;
+                             p{
+                                 width:100%; 
+                                img{
+                                    width:100%;  
+                                } 
+                             }
+                        }
+                        &:nth-child(2){
+                             @include flex(2);
+                             @include align-items(center);
+                             
+                        }
+                        &:nth-child(3){
+                             @include flex(3);
+                             background: url(/mobiletask/images/picture_enter.png) no-repeat 92% 89% ;
+                             @include box-sizing(border-box);
+                             @include align-items(flex-end);
+                             padding-bottom: .1rem;
+                             background-size: 11%;
+                        }
+                    }
+                }   
+            }
+        &:nth-child(2){
+            
+            @include flex(1);
+            width: 100%;
+            @include align-items(center);
+            @include flexbox() ;
+            font-size: .12rem;
+            i{
+                font-size: .16rem;
+                color:#fd9800;
+                padding:0 .15rem 0 .2rem; 
+            }
+            span{
+                @include flex(2) ;
+                color:#5e5e5e;
+            }
+            em{
+                @include flex(3) ;
+                color:#7d7d7d;
+                text-align: center;
+                background: url(/mobiletask/images/picture_enter.png) no-repeat 92% 50% ;
+                background-size: 10%;
+            }
+        }
+        
+        &:nth-child(3){
+            @include flex(2);
+            @include align-items(center);
+            width: 100%;
+            @include flexbox() ;
+            @include flex-direction(column);
+            div{
+                @include flexbox() ;
+                @include align-items(center);
+                width: 100%;
+                i{
+                    font-size: .16rem;
+                    color:#fd9800;
+                    
+                    padding:0 .15rem 0 .2rem; 
+                }
+                span{
+                    @include flex(2) ;
+                    color:#5e5e5e;
+                }
+                em{
+                    @include flex(3) ;
+                    color:#7d7d7d;
+                    text-align: center;
+                    background: url(/mobiletask/images/picture_enter.png) no-repeat 90% 50% ;
+                    background-size: 10%;
+                }
+                
+                &:nth-child(1){
+                    @include flex(1) ;
+                    width: 100%;
+                    span,em{
+                       @include box-sizing(border-box);
+                       @include border(0 0 1px 0,#dddddd);
+                       height: 100%;
+                       line-height: 100%;
+                       @include flexbox() ;
+                       @include align-items(center);
+                    }
+                    em{
+                        @include box-sizing(border-box);
+                        padding-left: 18%;
+                        background: url(/mobiletask/images/picture_enter.png) no-repeat 92% 50% ;
+                        background-size: 9%;
+                    }
+                     
+                }
+                &:nth-child(2){
+                    @include flex(1) ;
+                    width: 100%;
+                }
+            }
+         }
+         &:nth-child(4){
+           
+          @include flex(1);
+          width: 100%;
+          @include align-items(center);
+          @include flexbox() ;
+          i{
+              font-size: .16rem;
+              color:#fd9800;
+                  
+              padding:0 .15rem 0 .2rem; 
+          }
+          span{
+              @include flex(1) ;
+            color:#5e5e5e;
+              background: url(/mobiletask/images/picture_enter.png) no-repeat 94% 50% ;
+              background-size: 6%;
+          }
+          
+            
+        }
+         &:nth-child(5){
+            
+            @include flex(3);
+            width: 100%;
+            @include align-items(center);
+            @include border(1px 0 0 0) ;
+            div{
+                @include flexbox() ;
+                height: .4rem;
+                line-height: .4rem;
+                i{
+                    font-size: .16rem;
+                    color:#fd9800;
+                    padding:0 .15rem 0 .2rem; 
+                }
+                span{
+                    @include flex(1) ;
+                    color:#5e5e5e;
+                    background: url(/mobiletask/images/picture_enter.png) no-repeat 94% 50% ;
+                    background-size: 6%;
+                }
+            
+                
+        }
+     
+    }
+    &:nth-child(6){
+              
+              @include flex(1);
+              width:100%;
+              @include border(0 0 0 0);
+        }
+         
+        }
+      
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+<div class="m-index">
+  <div class="l-container">
+        
+    </div>
+    
+    <footer>
+        <ul>
+          <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe61a;</i><span>首页</span></li>
+          <li action-type="switch.tabs" data-tag="moment"><i class="yo-ico">&#xe67b;</i><span>瞬间</span></li>              
+          <li action-type="switch.tabs" data-tag="order"><i class="yo-ico">&#xe62f;</i><span>订单</span></li>
+          <li action-type="switch.tabs" data-tag="my"><i class="yo-ico">&#xe626;</i><span>我的</span></li>
+        </ul>
+    </footer>
+</div>

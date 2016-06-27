@@ -1,0 +1,48 @@
+
+<header>
+        <ul>
+            <li>
+                <i class="yo-ico">&#xe68b;</i>
+                <span>吉美家园</span>
+            </li>
+            <li class="yo-ico">&#xe6fb;</li>
+        </ul>
+    </header>
+    
+<section>
+    <div class="order_div" action-type="goto.market">
+        <i class="yo-ico">&#xe641;</i>
+        <span>小区商超订单</span>
+    </div>
+    <div class="order_div">
+        <i class="yo-ico">&#xe6b2;</i>
+        <span>小区家政订单</span>
+    </div>
+    <div class="order_div">
+        <i class="yo-ico">&#xe609;</i>
+        <span>一件快递订单</span>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

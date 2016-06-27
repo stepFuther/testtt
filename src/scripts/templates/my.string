@@ -1,0 +1,100 @@
+<header>
+    <ul>
+        <li>
+            <i class="yo-ico">&#xe68b;</i>
+            <span>吉美家园</span>
+        </li>
+        <li class="yo-ico">&#xe6fb;</li>
+    </ul>
+</header>
+
+<section class="my">
+       
+    <div class="my_list mylist1">
+        <ul>
+            <li><p><img src="/mobiletask/images/user_moren_heard.png" /></p></li>
+            <li action-type="login">请先登录</li>
+            <li>账户管理、收货地址</li>
+        </ul>
+    </div>
+    
+    <div class="my_list mylist2">
+        <i class="yo-ico">&#xe657;</i>
+        <span>我的账单</span>
+        <em>查看全部账单</em>
+    </div>
+    
+    <div class="my_list mylist3">
+        <div>
+            <i class="yo-ico">&#xe66e; </i>
+            <span>我的钱包</span>
+            <em>账户余额: 0.00</em>
+        </div>
+        <div>
+            <i class="yo-ico">&#xe601;</i>
+            <span>我的积分</span>
+            <em>账户积分: 0</em>
+        </div>
+    </div>
+    
+    <div class="my_list mylist4">
+        <i class="yo-ico">&#xe627;</i>
+        <span>分享给朋友</span>
+    </div>
+    
+    
+    <div class="my_list mylist5">
+        <div>
+            <i class="yo-ico">&#xe6d7;</i>
+            <span>服务与反馈</span>
+            
+        </div>
+        <div>
+            <i class="yo-ico">&#xe663;</i>
+            <span>协议与条款</span>
+           
+        </div>
+        <div>
+            <i class="yo-ico">&#xe60b;</i>
+            <span>关于我们</span>
+            
+        </div>
+    </div>
+    
+    <div class="my_list mylist6"></div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
